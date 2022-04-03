@@ -8,9 +8,19 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height:650px;
+    height:720px;
     position: relative; 
     z-index:1;
+
+    :before {
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(0,0,0,0.2,) 0%, rgba(0,0,0,0.6) 100%), 
+        linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%)
+    }
 `
 export const HeroBg = styled.div`
     position: absolute;
@@ -71,7 +81,7 @@ export const HeroP = styled.p`
 `
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 100px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
