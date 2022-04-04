@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 
 export const AboutContainer = styled.div`
-    color:#fff;
+    color:#000;
     background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '010606')};
+    
 
     @media screen and (max-width : 768px) {
         padding : 100px 0
@@ -12,7 +13,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
+    height: 750px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -46,7 +47,7 @@ export const TextWrapper = styled.div`
     padding-bottom: 60px;
 `
 export const TopLine = styled.p`
-    color: #01bf71;
+    color: #000;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -59,7 +60,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height:1.1;
     font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#f7f8fa' : '010606')};
+    color: #000;
     
     @media screen and (max-width: 480px){
         font-size: 32px
@@ -70,7 +71,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+    color: #000;
 `
 
 export const BtnWrap = styled.div`
@@ -79,12 +80,12 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 1000px;
     height:100%;
 `
 
 export const Img = styled.img`
-    width: 100%;
+    width: 125%;
     margin: 0 0 10px 0;
     padding-right: 0;
 `
