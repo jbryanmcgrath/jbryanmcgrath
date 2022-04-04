@@ -23,8 +23,7 @@ const HeroSection = () => {
                     </HeroP>
                     <HeroBtnWrapper>
                         <Button to='portfolio'
-                            onMouseEnter={hover}
-                            onMouseLeave={hover}
+                            onHover={hover}
                             primary='true'
                             dark='true'>
                             See My Work

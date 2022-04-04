@@ -26,7 +26,14 @@ const AboutSection = () => {
                                     Im an innovative problem-solver that is passionate about developing apps with a focus on user friendly design and development. Strengths in creativity, teamwork, and building projects from ideation to execution.
                                 </Subtitle>
                                 <BtnWrap>
-                                    <Button>Portfolio</Button>
+                                    <Button
+                                        to='portfolio'
+                                        smooth={true}
+                                        duration={500}
+                                        spy={true}
+                                        exact='true'
+                                        offset={-80}
+                                    >Portfolio</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>
