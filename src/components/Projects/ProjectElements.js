@@ -16,7 +16,6 @@ export const Title = styled.h1`
     line-height:1.1;
     font-weight: 600;
     color: #000;
-    border-bottom: 20px black;
     
     @media screen and (max-width: 480px){
         font-size: 32px };

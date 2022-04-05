@@ -1,7 +1,9 @@
+
+
 [{
     "name" : "Around the World in 8 Miliseconds",
     "image" : "https://user-images.githubusercontent.com/91582982/144324569-a9d823f9-e897-4e42-94a9-ebc5a902f619.PNG",
-    "description" : "Using the power of the World Population API Documentation | RapidAPI Get population of a country or world population.",
+    "description" : "Using the power of the World Population API this app gets population of a country and tells you where it ranks in order of world population.",
     "GitHub" : "https://github.com/jbryanmcgrath/project1-group8",
     "deployedURL" : "https://jbryanmcgrath.github.io/project1-group8/"
 
@@ -16,33 +18,33 @@
 },
 {
     "name" : "GymCRM",
-    "image" : "./landingpage.png",
-    "description" : "This is a Customer Relationship tool meant for small, club style gyms in more niche sectors. Think CrossFit, Jiu Jitsu, and powerlifting. It's an easy and light tool meant to be ultra affordable.  ",
+    "image" : "https://user-images.githubusercontent.com/90098243/161845880-4fee4bc9-853d-4396-8391-bc19b2533b49.png",
+    "description" : "This is a Customer Relationship tool meant for small, club style gyms in more niche sectors. Think CrossFit, Jiu Jitsu, and powerlifting. It's an easy and light tool meant to be ultra affordable.",
     "GitHub" : "https://github.com/jbryanmcgrath/gym-crm",
     "deployedURL" : "https://protected-waters-34726.herokuapp.com/"
 
 },
 {
-    "name" : "CRM Light",
-    "image" : "https://user-images.githubusercontent.com/92175961/152648670-74d660a4-cf9c-42f7-afb8-ced94d65f710.PNG",
-    "description" : "This is a simple CRM meant for use by small businesses and sole proprietors that need a simple app to keep track of customers and potential customers. ",
-    "GitHub" : "https://github.com/mollyrendon/crm-lite",
-    "deployedURL" : "https://glacial-shore-58084.herokuapp.com/"
+    "name" : "Budget Tracker",
+    "image" : "https://user-images.githubusercontent.com/90098243/161849340-33f86fa5-f58c-4ecb-bd04-18cac9813a64.png",
+    "description" : "This is a simple Budget Tracker that uses Progressive Web App technology to allow users to make changes locally without a connection and then it connects and updates upon recconecting ",
+    "GitHub" : "https://github.com/jbryanmcgrath/budget-tracker",
+    "deployedURL" : "https://young-depths-67721.herokuapp.com/"
 
 },
 {
-    "name" : "CRM Light",
-    "image" : "https://user-images.githubusercontent.com/92175961/152648670-74d660a4-cf9c-42f7-afb8-ced94d65f710.PNG",
-    "description" : "This is a simple CRM meant for use by small businesses and sole proprietors that need a simple app to keep track of customers and potential customers. ",
-    "GitHub" : "https://github.com/mollyrendon/crm-lite",
-    "deployedURL" : "https://glacial-shore-58084.herokuapp.com/"
+    "name" : "ReadME Generator",
+    "image" : "https://user-images.githubusercontent.com/90098243/161850144-df20dc05-cd3b-4b91-8004-3075aa8d09d0.png",
+    "description" : "This app is a Node app built with the npm package inquirer to output a readme based on user input through the terminal. Please note, there is no deployed url for this app. ",
+    "GitHub" : "https://github.com/jbryanmcgrath/readme",
+    "deployedURL" : "https://github.com/jbryanmcgrath/readme"
 
 },
 {
-    "name" : "CRM Light",
-    "image" : "https://user-images.githubusercontent.com/92175961/152648670-74d660a4-cf9c-42f7-afb8-ced94d65f710.PNG",
-    "description" : "This is a simple CRM meant for use by small businesses and sole proprietors that need a simple app to keep track of customers and potential customers. ",
-    "GitHub" : "https://github.com/mollyrendon/crm-lite",
-    "deployedURL" : "https://glacial-shore-58084.herokuapp.com/"
+    "name" : "Portfolio",
+    "image" : "https://user-images.githubusercontent.com/90098243/161850871-3827961e-5864-4471-bf3e-0a824a1947c6.png",
+    "description" : "This is portfolio used to showcase my work and my improvement with UI's and React. More work will be included in this section as I continue to work on my skills. ",
+    "GitHub" : "https://github.com/jbryanmcgrath/jbryanmcgrath",
+    "deployedURL" : "https://github.com/jbryanmcgrath/jbryanmcgrath"
 
 }]
