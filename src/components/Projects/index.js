@@ -11,11 +11,11 @@ import { TitleContainer, Title, GithubIcon, LinkIcon } from './ProjectElements'
 
 const ProjectCards = () => {
     return (
-        <>
-            <TitleContainer>
-                <Title>Projects</Title>
-            </TitleContainer>
-            <Container>
+        <div id="projects">
+            <Container >
+                <TitleContainer >
+                    <Title>Projects</Title>
+                </TitleContainer>
                 <Row xs={1} md={3} className="g-4">
                     {projects.map((_, idx) => (
                         <Col>
@@ -38,7 +38,7 @@ const ProjectCards = () => {
                     ))}
                 </Row>
             </Container>
-        </>
+        </div>
     )
 }
 

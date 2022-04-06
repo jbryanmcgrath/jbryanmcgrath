@@ -4,7 +4,7 @@ import './index.css'
 
 const Contact = () => {
     return (
-        <Container className='mt-5'>
+        <Container id="contact" className=''>
             <Row className='mb-5 mt-3'>
                 <Col lg='12' className='text-center'>
                     <h1 className="mb-5 mt-5 ">Contact Me</h1>

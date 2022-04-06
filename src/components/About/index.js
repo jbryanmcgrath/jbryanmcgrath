@@ -8,7 +8,7 @@ import avatar from '../../images/avatar.png'
 const AboutSection = () => {
     return (
         <>
-            <AboutContainer >
+            <AboutContainer id="about">
                 <AboutWrapper>
                     <AboutRow >
                         <Column1>
@@ -33,7 +33,7 @@ const AboutSection = () => {
                                         spy={true}
                                         exact='true'
                                         offset={-80}
-                                    >Portfolio</Button>
+                                    >Projects</Button>
                                 </BtnWrap>
                             </TextWrapper>
                         </Column1>

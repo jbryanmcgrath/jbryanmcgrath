@@ -1,13 +1,16 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
 import { NavbarContainer, Nav, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavLinkR } from './NavbarElements'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = ({ toggle }) => {
+
+
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>
+                    <NavLogo to='hero-section'>
                         J. Bryan McGrath
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -19,7 +22,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks
-                                to="portfolio">Portfolio
+                                to="projects">Projects
                             </NavLinks>
                         </NavItem>
                         <NavItem>

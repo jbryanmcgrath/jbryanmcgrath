@@ -12,7 +12,7 @@ const HeroSection = () => {
 
     return (
         <>
-            <HeroContainer>
+            <HeroContainer id="hero-section">
                 <HeroBg>
                     <VideoBg autoPlay loop muted src={Video} type='/video/mp4' />
                 </HeroBg>
@@ -22,11 +22,11 @@ const HeroSection = () => {
                         I'm a web developer with a strong interest in blockchain technology and Web 3.0.
                     </HeroP>
                     <HeroBtnWrapper>
-                        <Button to='portfolio'
+                        <Button to='about'
                             onHover={hover}
                             primary='true'
                             dark='true'>
-                            See My Work
+                            Learn More
                             {hover ? <ArrowForward /> : <ArrowRight />}
                         </Button>
                     </HeroBtnWrapper>
