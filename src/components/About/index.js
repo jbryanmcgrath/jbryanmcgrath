@@ -27,7 +27,7 @@ const AboutSection = () => {
                                 </Subtitle>
                                 <BtnWrap>
                                     <Button
-                                        to='portfolio'
+                                        to='projects'
                                         smooth={true}
                                         duration={500}
                                         spy={true}

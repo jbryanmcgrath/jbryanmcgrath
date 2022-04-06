@@ -2,7 +2,14 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './index.css'
 
+
 const Contact = () => {
+
+
+
+
+
+
     return (
         <Container id="contact" className=''>
             <Row className='mb-5 mt-3'>
@@ -34,7 +41,7 @@ const Contact = () => {
                                     className='form-control rounded-0'
                                     id='name'
                                     name='name'
-                                    placeholder='Name'
+                                    placeholder='Functionality coming soon....'
                                     type='text'
                                 />
                             </Col>
@@ -43,12 +50,12 @@ const Contact = () => {
                                     className='form-control rounded-0'
                                     id='email'
                                     name='email'
-                                    placeholder='Email'
+                                    placeholder='Functionality coming soon....'
                                     type='email'
                                 />
                             </Col>
                         </Row>
-                        <textarea className='form-control rounded-0 mt-5' id="message" name='message' placeholder='Message' rows='5'>
+                        <textarea className='form-control rounded-0 mt-5' id="message" name='message' placeholder='Functionality coming soon....' rows='5'>
 
 
                         </textarea>
