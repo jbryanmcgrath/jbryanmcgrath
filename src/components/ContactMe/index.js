@@ -1,12 +1,13 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import './index.css'
 
 const Contact = () => {
     return (
-        <Container>
+        <Container className='mt-5'>
             <Row className='mb-5 mt-3'>
-                <Col lg='8'>
-                    <h1 className="mb-5 mt-5">Contact Me</h1>
+                <Col lg='12' className='text-center'>
+                    <h1 className="mb-5 mt-5 ">Contact Me</h1>
                 </Col>
             </Row>
 
