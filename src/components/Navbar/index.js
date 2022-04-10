@@ -28,9 +28,9 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to="contact">Contact Me</NavLinks>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinkR to="/resume">Resume</NavLinkR>
-                        </NavItem>
+                        </NavItem> */}
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
