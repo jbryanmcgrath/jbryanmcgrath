@@ -1,12 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './index.css'
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
+    const form = useRef();
 
 
 
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_71uh50f', 'template_432mw93', form.current, 'AxsbSE6XCmR-esNdV')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
 
 
@@ -34,14 +46,14 @@ const Contact = () => {
                     <p>Please reach out. I look forward to hearing from you.</p>
                 </Col>
                 <Col Lg='7' className="d-flex align-items-center">
-                    <form className='contact__form w-100'>
+                    <form ref={form} onSubmit={sendEmail} className='contact__form w-100'>
                         <Row>
                             <Col Lg='6' className="form-group">
                                 <input
                                     className='form-control rounded-0'
                                     id='name'
                                     name='name'
-                                    placeholder='Functionality coming soon....'
+                                    placeholder='Name'
                                     type='text'
                                 />
                             </Col>
@@ -50,12 +62,12 @@ const Contact = () => {
                                     className='form-control rounded-0'
                                     id='email'
                                     name='email'
-                                    placeholder='Functionality coming soon....'
+                                    placeholder='Email'
                                     type='email'
                                 />
                             </Col>
                         </Row>
-                        <textarea className='form-control rounded-0 mt-5' id="message" name='message' placeholder='Functionality coming soon....' rows='5'>
+                        <textarea className='form-control rounded-0 mt-5' id="message" name='message' placeholder='Message' rows='5'>
 
 
                         </textarea>
