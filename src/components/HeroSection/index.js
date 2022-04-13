@@ -19,7 +19,7 @@ const HeroSection = () => {
                 <HeroContent>
                     <HeroH1>Hi. My name is Bryan.</HeroH1>
                     <HeroP>
-                        I'm a web developer with a strong interest in blockchain technology and Web 3.0.
+                        I'm a web developer with a strong desire to learn and grow in this field.
                     </HeroP>
                     <HeroBtnWrapper>
                         <Button to='about'
