@@ -23,11 +23,11 @@ const HeroSection = () => {
                     </HeroP>
                     <HeroBtnWrapper>
                         <Button to='about'
-                            onHover={hover}
+                            onHover={onHover}
                             primary='true'
                             dark='true'>
                             Learn More
-                            {hover ? <ArrowForward /> : <ArrowRight />}
+                            {onHover ? <ArrowForward /> : <ArrowRight />}
                         </Button>
                     </HeroBtnWrapper>
                 </HeroContent>

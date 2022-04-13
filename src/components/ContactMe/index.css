@@ -17,7 +17,7 @@ body {
 
 .btn {
     color: black;
-    border: 1px black;
+    border-radius: 1px black;
 }
 
 #contact {

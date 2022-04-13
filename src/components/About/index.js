@@ -1,6 +1,6 @@
 import { Button } from '../ButtonElements'
 import React from 'react'
-import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Img, ImgWrap } from './AboutElement'
+import { AboutContainer, AboutWrapper, AboutRow, Column1, Column2, TextWrapper, Heading, Subtitle, BtnWrap, Img, ImgWrap } from './AboutElement'
 import avatar from '../../images/avatar.png'
 
 

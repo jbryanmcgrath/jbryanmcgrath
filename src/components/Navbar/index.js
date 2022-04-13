@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
-import { NavbarContainer, Nav, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavLinkR } from './NavbarElements'
-import { useNavigate } from 'react-router-dom'
+import { NavbarContainer, Nav, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
 
