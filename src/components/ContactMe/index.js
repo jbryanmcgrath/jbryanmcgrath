@@ -1,17 +1,19 @@
 import React, { useRef, useState } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button, Modal } from 'react-bootstrap'
 import './index.css'
 import emailjs from '@emailjs/browser';
-import Modal from '../Modal/index'
-import { Button } from './ContactMeElements';
 
 
 const Contact = () => {
     const form = useRef();
-    const [showModal, setShowModal] = useState(false)
+    const [show, setShow] = useState(false);
 
-    const openModal = () => {
-        setShowModal(prev => !prev)
+
+    const handleClose = () => {
+        setShow(false)
+    };
+    const handleShow = () => {
+        setShow(true)
     };
 
 
@@ -54,7 +56,8 @@ const Contact = () => {
                         <p>Please reach out. I look forward to hearing from you.</p>
                     </Col>
                     <Col Lg='7' className="d-flex align-items-center">
-                        <form ref={form} onSubmit={sendEmail} className='contact__form w-100'>
+                        <form ref={form} onSubmit={sendEmail}
+                            className='contact__form w-100'>
                             <Row>
                                 <Col Lg='6' className="form-group">
                                     <input
@@ -80,7 +83,17 @@ const Contact = () => {
                             <br />
                             <Row>
                                 <Col lg='12' className="form-group">
-                                    <Button onClick={openModal} type="submit"> Send</Button>
+                                    <Button onClick={handleShow} type="submit"> Send</Button>
+                                    <Modal
+                                        show={show} onHide={handleClose}>
+                                        <Modal.Header>Thank you for reaching out</Modal.Header>
+                                        <Modal.Body>
+                                            I will respond to your message promptly.
+                                        </Modal.Body>
+                                        <Modal.Footer>
+                                            <Button onClick={handleClose}>Close</Button>
+                                        </Modal.Footer>
+                                    </Modal>
                                 </Col>
                             </Row>
                         </form>
